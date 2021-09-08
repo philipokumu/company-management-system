@@ -19,11 +19,11 @@ npm run dev
 
 ### Also add your mail trap credentials on
 
-MAIL_MAILER=smtp
-MAIL_HOST=smtp.mailtrap.io
-MAIL_PORT=2525
-MAIL_USERNAME='Your smtp username'
-MAIL_PASSWORD='Your smtp password'
+<p>MAIL_MAILER=smtp</p>
+<p>MAIL_HOST=smtp.mailtrap.io</p>
+<p>MAIL_PORT=2525</p>
+<p>MAIL_USERNAME='Your smtp username'</p>
+<p>MAIL_PASSWORD='Your smtp password'</p>
 
 ### Migrate the database
 
