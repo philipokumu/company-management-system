@@ -1,6 +1,6 @@
-{{-- @extends('adminlte::page')
+@extends('adminlte::page')
 
-@section('title', 'Add todo')
+{{-- @section('title', 'Add todo')
 
 @section('content_header')
     <div class="d-flex justify-content-between">

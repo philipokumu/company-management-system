@@ -1,3 +1,5 @@
+@extends('adminlte::page')
+
 <div class="card">
     <div class="card-body w-75">
         <form wire:submit.prevent="update" method="POST">

@@ -25,7 +25,7 @@ class EmployeeFactory extends Factory
             'first_name' => 'Omuga',
             'last_name' => 'Omusakhulu',
             'email' => $this->faker->unique()->safeEmail(),
-            'phone' => '0720 123 456',
+            'phone' => '0720123456',
         ];
     }
 }

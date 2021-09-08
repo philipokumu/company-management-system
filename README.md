@@ -33,6 +33,6 @@ cp .env.example .env
 
 php artisan migrate:fresh --seed
 
-### Start your server
+### Start your server and access the project from the link provided
 
 php artisan serve

@@ -29,7 +29,7 @@ class UpdateTodo extends Component
 
         $this->todo->update([
             'task_name'=>$this->task_name,
-            'completed'=>$this->completed,
+            'completed'=>$this->completed =="true" ? true : false,
         ]);
 
         redirect(route('todos.list'));

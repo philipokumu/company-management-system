@@ -22,7 +22,7 @@
     </div>
     <div class="form-group">
         <label for="phone">Phone</label>
-        <input type="number" class="form-control" id="phone" name="phone" placeholder="Enter phone..." value="{{ old('phone', isset($employee) ? $employee->phone : '' ) }}">
+        <input type="text" class="form-control" id="phone" name="phone" placeholder="Enter phone..." value="{{ old('phone', isset($employee) ? $employee->phone : '' ) }}">
         @if ($errors->has('phone'))
             <span id="phone-error" class="error text-danger" for="input-phone">{{ $errors->first('phone') }}</span>
         @endif
