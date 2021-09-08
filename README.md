@@ -1,6 +1,6 @@
 ## Setup
 
-### Clone the project from Git and cd into the project directory.
+### Clone the project from Git and cd into your preferred PHP environment.
 
 <p>git clone https://github.com/philipokumu/company-management-system.git</p>
 <p> cd company-management-system</p>
@@ -15,9 +15,13 @@ npm install
 
 npm run dev
 
-### Create a database and set the environment variables in .env file.
+### Create a database in your php localhost
 
-### Also add your mail trap credentials on
+### Clone .env file and set your database details in the environment variables
+
+cp .env.example .env
+
+### Also add in your mail trap credentials on:
 
 <p>MAIL_MAILER=smtp</p>
 <p>MAIL_HOST=smtp.mailtrap.io</p>
@@ -28,3 +32,7 @@ npm run dev
 ### Migrate the database
 
 php artisan migrate:fresh --seed
+
+### Start your server
+
+php artisan serve
