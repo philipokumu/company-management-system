@@ -17,7 +17,7 @@ class DatabaseSeeder extends Seeder
 
         $defaultUser = \App\Models\User::factory()
             ->create([
-                'email' => 'admin@admin.com',
+                'email' => 'admin@example.com',
             ]);
 
         $companies = \App\Models\Company::factory(2)

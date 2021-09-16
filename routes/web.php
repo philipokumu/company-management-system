@@ -38,6 +38,10 @@ Route::middleware(['auth:sanctum'])->group(function () {
 
 });
 
+// Route::get('admin', function () {
+//     return view('admin_template');
+// });
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');

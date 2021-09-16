@@ -1,15 +1,15 @@
 @extends('adminlte::page')
 
-{{-- @section('title', 'Add todo')
+{{-- @section('title', 'Add todo')--}}
 
-@section('content_header')
-    <div class="d-flex justify-content-between">
+{{-- @section('content_header')  --}}
+    {{-- <div class="d-flex justify-content-between">
         <h1>Add new todo</h1>
         <a href="{{route('todos.list')}}" class="btn btn-primary">Back to todos</a>
-    </div>
-@stop
+    </div> --}}
+{{-- @stop --}}
 
-@section('content') --}}
+@section('content') 
 <div class="card">
     <div class="card-body w-75">
         <form wire:submit.prevent="create" method="POST">
@@ -20,4 +20,4 @@
         </form>
     </div>
 </div>
-{{-- @stop --}}
+@stop
